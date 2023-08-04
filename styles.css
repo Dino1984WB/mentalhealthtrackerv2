@@ -1,8 +1,3 @@
-body {
-    background-color: white;
-    color: blue;
-}
-
 .slider {
     -webkit-appearance: none;
     width: 100%;
@@ -11,6 +6,7 @@ body {
     outline: none;
     opacity: 0.7;
     transition: opacity .2s;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 .slider:hover {
@@ -24,17 +20,5 @@ body {
     height: 25px;
     background: blue;
     cursor: pointer;
-}
-
-.save-btn {
-    background-color: blue;
-    color: white;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
